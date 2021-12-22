@@ -1,4 +1,4 @@
-package lessons.modules.module_Scala_Start.lesson_003_Basic_of_Scala_on_example_of_first_program
+package lessons.modules.module_01_Scala_Start.lesson_003_Basic_of_Scala_on_example_of_first_program
 
 import scala.io.StdIn
 
