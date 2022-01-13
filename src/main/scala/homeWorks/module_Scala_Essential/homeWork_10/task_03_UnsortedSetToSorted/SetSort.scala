@@ -16,7 +16,7 @@ object SetSort extends App {
 			case _ => generate(length - 1, Random.between(97, 116).toChar + acc)
 		}
 
-		TreeSet[String]() ++= Set.fill(count)(generate(Random.between(2, length)))
+		TreeSet[String]() ++ Set.fill(count)(generate(Random.between(2, length)))
 	}
 
 	println(generateRandomWordsSet(5, 6))
